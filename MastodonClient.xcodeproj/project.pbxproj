@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AB2C3D4E5F67890 /* MastodonClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB2C3D4E5F67891 /* MastodonClientApp.swift */; };
+		2AB2C3D4E5F67892 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2C3D4E5F67893 /* ContentView.swift */; };
+		3AB2C3D4E5F67894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB2C3D4E5F67895 /* Assets.xcassets */; };
+		4AB2C3D4E5F67896 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AB2C3D4E5F67897 /* Preview Assets.xcassets */; };
+		5AB2C3D4E5F67898 /* MastodonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB2C3D4E5F67899 /* MastodonAPI.swift */; };
+		6AB2C3D4E5F6789A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2C3D4E5F6789B /* Models.swift */; };
+		7AB2C3D4E5F6789C /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB2C3D4E5F6789D /* TimelineView.swift */; };
+		8AB2C3D4E5F6789E /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB2C3D4E5F6789F /* StatusView.swift */; };
+		9AB2C3D4E5F678A0 /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB2C3D4E5F678A1 /* ComposeView.swift */; };
+		AAB2C3D4E5F678A2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB2C3D4E5F678A3 /* LoginView.swift */; };
+		BAB2C3D4E5F678A4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB2C3D4E5F678A5 /* ProfileView.swift */; };
+		CAB2C3D4E5F678A6 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB2C3D4E5F678A7 /* UserStore.swift */; };
+		DAB2C3D4E5F678A8 /* TimelineStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB2C3D4E5F678A9 /* TimelineStore.swift */; };
+		EAB2C3D4E5F678AA /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB2C3D4E5F678AB /* NotificationView.swift */; };
+		FAB2C3D4E5F678AC /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2C3D4E5F678AD /* SearchView.swift */; };
+		GAB2C3D4E5F678AE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = GAB2C3D4E5F678AF /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AB2C3D4E5F67000 /* MastodonClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MastodonClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB2C3D4E5F67891 /* MastodonClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastodonClientApp.swift; sourceTree = "<group>"; };
+		2AB2C3D4E5F67893 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3AB2C3D4E5F67895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AB2C3D4E5F67897 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5AB2C3D4E5F67899 /* MastodonAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastodonAPI.swift; sourceTree = "<group>"; };
+		6AB2C3D4E5F6789B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		7AB2C3D4E5F6789D /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		8AB2C3D4E5F6789F /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		9AB2C3D4E5F678A1 /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
+		AAB2C3D4E5F678A3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		BAB2C3D4E5F678A5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CAB2C3D4E5F678A7 /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
+		DAB2C3D4E5F678A9 /* TimelineStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineStore.swift; sourceTree = "<group>"; };
+		EAB2C3D4E5F678AB /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		FAB2C3D4E5F678AD /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		GAB2C3D4E5F678AF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AB2C3D4E5F67001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AB2C3D4E5F67002 = {
+			isa = PBXGroup;
+			children = (
+				1AB2C3D4E5F67003 /* MastodonClient */,
+				1AB2C3D4E5F67004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AB2C3D4E5F67003 /* MastodonClient */ = {
+			isa = PBXGroup;
+			children = (
+				1AB2C3D4E5F67891 /* MastodonClientApp.swift */,
+				2AB2C3D4E5F67893 /* ContentView.swift */,
+				1AB2C3D4E5F67005 /* Views */,
+				1AB2C3D4E5F67006 /* Services */,
+				1AB2C3D4E5F67007 /* Models */,
+				1AB2C3D4E5F67008 /* Stores */,
+				3AB2C3D4E5F67895 /* Assets.xcassets */,
+				1AB2C3D4E5F67009 /* Preview Content */,
+			);
+			path = MastodonClient;
+			sourceTree = "<group>";
+		};
+		1AB2C3D4E5F67004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AB2C3D4E5F67000 /* MastodonClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AB2C3D4E5F67005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7AB2C3D4E5F6789D /* TimelineView.swift */,
+				8AB2C3D4E5F6789F /* StatusView.swift */,
+				9AB2C3D4E5F678A1 /* ComposeView.swift */,
+				AAB2C3D4E5F678A3 /* LoginView.swift */,
+				BAB2C3D4E5F678A5 /* ProfileView.swift */,
+				EAB2C3D4E5F678AB /* NotificationView.swift */,
+				FAB2C3D4E5F678AD /* SearchView.swift */,
+				GAB2C3D4E5F678AF /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1AB2C3D4E5F67006 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5AB2C3D4E5F67899 /* MastodonAPI.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1AB2C3D4E5F67007 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6AB2C3D4E5F6789B /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1AB2C3D4E5F67008 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				CAB2C3D4E5F678A7 /* UserStore.swift */,
+				DAB2C3D4E5F678A9 /* TimelineStore.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		1AB2C3D4E5F67009 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4AB2C3D4E5F67897 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AB2C3D4E5F67010 /* MastodonClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB2C3D4E5F67011 /* Build configuration list for PBXNativeTarget "MastodonClient" */;
+			buildPhases = (
+				1AB2C3D4E5F67012 /* Sources */,
+				1AB2C3D4E5F67001 /* Frameworks */,
+				1AB2C3D4E5F67013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MastodonClient;
+			productName = MastodonClient;
+			productReference = 1AB2C3D4E5F67000 /* MastodonClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AB2C3D4E5F67014 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1AB2C3D4E5F67010 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 1AB2C3D4E5F67015 /* Build configuration list for PBXProject "MastodonClient" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AB2C3D4E5F67002;
+			productRefGroup = 1AB2C3D4E5F67004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AB2C3D4E5F67010 /* MastodonClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AB2C3D4E5F67013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB2C3D4E5F67896 /* Preview Assets.xcassets in Resources */,
+				3AB2C3D4E5F67894 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AB2C3D4E5F67012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB2C3D4E5F67892 /* ContentView.swift in Sources */,
+				1AB2C3D4E5F67890 /* MastodonClientApp.swift in Sources */,
+				5AB2C3D4E5F67898 /* MastodonAPI.swift in Sources */,
+				6AB2C3D4E5F6789A /* Models.swift in Sources */,
+				7AB2C3D4E5F6789C /* TimelineView.swift in Sources */,
+				8AB2C3D4E5F6789E /* StatusView.swift in Sources */,
+				9AB2C3D4E5F678A0 /* ComposeView.swift in Sources */,
+				AAB2C3D4E5F678A2 /* LoginView.swift in Sources */,
+				BAB2C3D4E5F678A4 /* ProfileView.swift in Sources */,
+				CAB2C3D4E5F678A6 /* UserStore.swift in Sources */,
+				DAB2C3D4E5F678A8 /* TimelineStore.swift in Sources */,
+				EAB2C3D4E5F678AA /* NotificationView.swift in Sources */,
+				FAB2C3D4E5F678AC /* SearchView.swift in Sources */,
+				GAB2C3D4E5F678AE /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1AB2C3D4E5F67020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AB2C3D4E5F67021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AB2C3D4E5F67022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MastodonClient/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MastodonClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AB2C3D4E5F67023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MastodonClient/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MastodonClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AB2C3D4E5F67015 /* Build configuration list for PBXProject "MastodonClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB2C3D4E5F67020 /* Debug */,
+				1AB2C3D4E5F67021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB2C3D4E5F67011 /* Build configuration list for PBXNativeTarget "MastodonClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB2C3D4E5F67022 /* Debug */,
+				1AB2C3D4E5F67023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AB2C3D4E5F67014 /* Project object */;
+}
