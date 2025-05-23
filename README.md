@@ -2,6 +2,9 @@
 
 A complete SwiftUI-based Mastodon client for iOS, generated from a single prompt by the "AI".
 
+![Screenshot 2025-05-23 at 14 42 32](https://github.com/user-attachments/assets/5b0a6128-16f4-43bf-9820-51786fa17b2d)
+
+
 ## Features
 
 ### Core Functionality
